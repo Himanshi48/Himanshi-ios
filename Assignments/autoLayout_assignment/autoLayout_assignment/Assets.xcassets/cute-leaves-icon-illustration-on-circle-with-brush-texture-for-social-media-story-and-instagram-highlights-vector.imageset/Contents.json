@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "cute-leaves-icon-illustration-on-circle-with-brush-texture-for-social-media-story-and-instagram-highlights-vector.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
