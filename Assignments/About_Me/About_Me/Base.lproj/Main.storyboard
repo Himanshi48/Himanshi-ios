@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="YIF-q1-n6T">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Me-->
+        <scene sceneID="VWK-dq-n5c">
+            <objects>
+                <viewController id="eC4-cT-kQb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ht5-AZ-Tny">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="syG-Wa-8WG">
+                                <rect key="frame" x="126.66666666666669" y="118" width="140" height="37"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="31"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="SPR-cr-wsR">
+                                <rect key="frame" x="16" y="190.66666666666669" width="183" height="179.66666666666669"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Himanshi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ylb-4N-zdM">
+                                <rect key="frame" x="207" y="202" width="177" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20 Years Old" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TTW-vo-jDJ">
+                                <rect key="frame" x="207" y="240" width="113" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkH-B5-EAM">
+                                <rect key="frame" x="16" y="352" width="312" height="178"/>
+                                <string key="text">CSE student &amp; iOS developer with a strong grasp of Java, C/C++, and UI/UX design in Figma. Passionate about building clean, user-focused apps and constantly learning new tech.</string>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LwK-CQ-AuL"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <constraints>
+                            <constraint firstItem="LwK-CQ-AuL" firstAttribute="bottom" secondItem="Ylb-4N-zdM" secondAttribute="bottom" constant="503" id="7Wf-hb-prD"/>
+                            <constraint firstItem="LwK-CQ-AuL" firstAttribute="bottom" secondItem="syG-Wa-8WG" secondAttribute="bottom" constant="580" id="8G9-gA-pCH"/>
+                            <constraint firstItem="syG-Wa-8WG" firstAttribute="top" secondItem="LwK-CQ-AuL" secondAttribute="top" id="AZp-Kd-Bt5"/>
+                            <constraint firstItem="dkH-B5-EAM" firstAttribute="leading" secondItem="LwK-CQ-AuL" secondAttribute="leading" constant="16" id="BIE-JH-48i"/>
+                            <constraint firstItem="LwK-CQ-AuL" firstAttribute="bottom" secondItem="dkH-B5-EAM" secondAttribute="bottom" constant="205" id="DK3-xd-WRL"/>
+                            <constraint firstItem="TTW-vo-jDJ" firstAttribute="leading" secondItem="SPR-cr-wsR" secondAttribute="trailing" constant="8" id="HI5-zg-mJe"/>
+                            <constraint firstItem="TTW-vo-jDJ" firstAttribute="top" secondItem="Ylb-4N-zdM" secondAttribute="bottom" constant="8" id="Ins-zP-dJ5"/>
+                            <constraint firstItem="LwK-CQ-AuL" firstAttribute="trailing" secondItem="dkH-B5-EAM" secondAttribute="trailing" constant="65" id="LbK-Ap-V1U"/>
+                            <constraint firstItem="SPR-cr-wsR" firstAttribute="top" secondItem="syG-Wa-8WG" secondAttribute="bottom" constant="34" id="NGw-q8-cqC"/>
+                            <constraint firstItem="LwK-CQ-AuL" firstAttribute="bottom" secondItem="TTW-vo-jDJ" secondAttribute="bottom" constant="471" id="OkI-8B-lZb"/>
+                            <constraint firstItem="LwK-CQ-AuL" firstAttribute="bottom" secondItem="SPR-cr-wsR" secondAttribute="bottom" constant="363" id="WxN-va-fYg"/>
+                            <constraint firstItem="dkH-B5-EAM" firstAttribute="top" secondItem="TTW-vo-jDJ" secondAttribute="bottom" constant="88" id="YdL-C9-BxI"/>
+                            <constraint firstItem="LwK-CQ-AuL" firstAttribute="trailing" secondItem="TTW-vo-jDJ" secondAttribute="trailing" constant="73" id="cYw-2l-SVL"/>
+                            <constraint firstItem="LwK-CQ-AuL" firstAttribute="trailing" secondItem="Ylb-4N-zdM" secondAttribute="trailing" constant="9" id="iQ7-03-mzE"/>
+                            <constraint firstItem="SPR-cr-wsR" firstAttribute="leading" secondItem="LwK-CQ-AuL" secondAttribute="leading" constant="16" id="ktA-Hg-E13"/>
+                            <constraint firstItem="syG-Wa-8WG" firstAttribute="centerX" secondItem="ht5-AZ-Tny" secondAttribute="centerX" id="ns4-Vi-qNL"/>
+                            <constraint firstItem="Ylb-4N-zdM" firstAttribute="top" secondItem="syG-Wa-8WG" secondAttribute="bottom" constant="47" id="v5k-VR-8rm"/>
+                            <constraint firstItem="Ylb-4N-zdM" firstAttribute="leading" secondItem="SPR-cr-wsR" secondAttribute="trailing" constant="8" symbolic="YES" id="vC3-EP-Xud"/>
+                            <constraint firstItem="LwK-CQ-AuL" firstAttribute="trailing" secondItem="SPR-cr-wsR" secondAttribute="trailing" constant="194" id="wCS-Kz-bvp"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Me" image="person.fill" catalog="system" landscapeImage="person.fill" selectedImage="person" id="MhE-oL-i7B"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DLo-hh-g4R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1906.1068702290077" y="374.64788732394368"/>
+        </scene>
+        <!--Education-->
+        <scene sceneID="eDh-b2-QjF">
+            <objects>
+                <viewController id="tsu-to-LFE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sto-06-ROW">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-Bachelor of Technology in Computer Science Engineering" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mnw-fJ-sz4">
+                                <rect key="frame" x="16" y="118" width="349" height="47"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-Senior Secondary (Class 12th)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HY9-dK-fbg">
+                                <rect key="frame" x="16" y="344" width="349" height="23"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-Senior Secondary (Class 12th)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AC6-qD-hCc">
+                                <rect key="frame" x="16" y="481" width="349" height="23"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zys-Sc-i0b">
+                                <rect key="frame" x="16" y="156" width="335" height="167"/>
+                                <string key="text">Chitkara University, Punjab
+Expected Graduation: 2027
+Relevant Coursework: Data Structures, Algorithms, OOP, Mobile App Development</string>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBn-YK-VTd">
+                                <rect key="frame" x="16" y="386" width="335" height="43"/>
+                                <string key="text">Delhi Public School, Sirsa
+CBSE | Year of Completion: 2023</string>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9D-s2-119">
+                                <rect key="frame" x="16" y="525" width="335" height="43"/>
+                                <string key="text">Delhi Public School, Sirsa
+CBSE | Year of Completion: 2021</string>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Aye-fT-7Hd"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <constraints>
+                            <constraint firstItem="HY9-dK-fbg" firstAttribute="top" secondItem="Zys-Sc-i0b" secondAttribute="bottom" constant="21" id="1DS-Nz-eP7"/>
+                            <constraint firstItem="GBn-YK-VTd" firstAttribute="top" secondItem="HY9-dK-fbg" secondAttribute="bottom" constant="19" id="30p-7X-V4a"/>
+                            <constraint firstItem="AC6-qD-hCc" firstAttribute="leading" secondItem="Aye-fT-7Hd" secondAttribute="leading" constant="16" id="66d-QY-leG"/>
+                            <constraint firstItem="Aye-fT-7Hd" firstAttribute="trailing" secondItem="Mnw-fJ-sz4" secondAttribute="trailing" constant="28" id="6G4-y8-yTO"/>
+                            <constraint firstItem="HY9-dK-fbg" firstAttribute="leading" secondItem="Aye-fT-7Hd" secondAttribute="leading" constant="16" id="BKM-fP-wDh"/>
+                            <constraint firstItem="AC6-qD-hCc" firstAttribute="top" secondItem="GBn-YK-VTd" secondAttribute="bottom" constant="52" id="CAx-iw-Rkp"/>
+                            <constraint firstItem="GBn-YK-VTd" firstAttribute="top" secondItem="HY9-dK-fbg" secondAttribute="bottom" constant="19" id="CCY-zZ-Sha"/>
+                            <constraint firstItem="Aye-fT-7Hd" firstAttribute="bottom" secondItem="AC6-qD-hCc" secondAttribute="bottom" constant="231" id="F0h-9v-e9D"/>
+                            <constraint firstItem="Aye-fT-7Hd" firstAttribute="trailing" secondItem="AC6-qD-hCc" secondAttribute="trailing" constant="28" id="HSc-N6-kwe"/>
+                            <constraint firstItem="Zys-Sc-i0b" firstAttribute="top" secondItem="Aye-fT-7Hd" secondAttribute="top" constant="38" id="NXD-PW-QX0"/>
+                            <constraint firstItem="Aye-fT-7Hd" firstAttribute="trailing" secondItem="HY9-dK-fbg" secondAttribute="trailing" constant="28" id="O6j-gg-2C3"/>
+                            <constraint firstItem="Aye-fT-7Hd" firstAttribute="bottom" secondItem="e9D-s2-119" secondAttribute="bottom" constant="167" id="Umb-lM-qhv"/>
+                            <constraint firstItem="Aye-fT-7Hd" firstAttribute="trailing" secondItem="e9D-s2-119" secondAttribute="trailing" constant="42" id="aaB-5r-QNf"/>
+                            <constraint firstItem="e9D-s2-119" firstAttribute="leading" secondItem="Aye-fT-7Hd" secondAttribute="leading" constant="16" id="bt0-zP-YC2"/>
+                            <constraint firstItem="Aye-fT-7Hd" firstAttribute="trailing" secondItem="GBn-YK-VTd" secondAttribute="trailing" constant="42" id="gcF-wB-Db3"/>
+                            <constraint firstItem="Aye-fT-7Hd" firstAttribute="bottom" secondItem="Zys-Sc-i0b" secondAttribute="bottom" constant="412" id="lQ5-Ur-IuZ"/>
+                            <constraint firstItem="Zys-Sc-i0b" firstAttribute="leading" secondItem="Aye-fT-7Hd" secondAttribute="leading" constant="16" id="pnW-QN-8oU"/>
+                            <constraint firstItem="GBn-YK-VTd" firstAttribute="leading" secondItem="Aye-fT-7Hd" secondAttribute="leading" constant="16" id="sEl-J6-xbf"/>
+                            <constraint firstItem="Mnw-fJ-sz4" firstAttribute="leading" secondItem="Aye-fT-7Hd" secondAttribute="leading" constant="16" id="tE5-RU-w0h"/>
+                            <constraint firstItem="Aye-fT-7Hd" firstAttribute="trailing" secondItem="Zys-Sc-i0b" secondAttribute="trailing" constant="42" id="u2s-E1-sIV"/>
+                            <constraint firstItem="e9D-s2-119" firstAttribute="top" secondItem="AC6-qD-hCc" secondAttribute="bottom" constant="21" id="w7e-nm-UAD"/>
+                            <constraint firstItem="Mnw-fJ-sz4" firstAttribute="top" secondItem="Aye-fT-7Hd" secondAttribute="top" id="wKH-er-FCz"/>
+                            <constraint firstItem="Aye-fT-7Hd" firstAttribute="bottom" secondItem="Mnw-fJ-sz4" secondAttribute="bottom" constant="570" id="yD7-Jd-dxY"/>
+                            <constraint firstItem="AC6-qD-hCc" firstAttribute="top" secondItem="GBn-YK-VTd" secondAttribute="bottom" constant="52" id="zur-Qt-txR"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Education" image="graduationcap.fill" catalog="system" landscapeImage="graduationcap.fill" selectedImage="graduationcap" id="4Y1-CS-s89"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S7t-7E-OIu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2681.679389312977" y="374.64788732394368"/>
+        </scene>
+        <!--Hobbies-->
+        <scene sceneID="VGp-1x-tyz">
+            <objects>
+                <viewController id="9Hp-QL-apf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YAf-rM-b3c">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hobbies &amp; Interests" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zrz-rK-Sc4">
+                                <rect key="frame" x="16" y="118" width="230" height="30"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kHb-bI-BBb">
+                                <rect key="frame" x="16" y="156" width="316" height="263"/>
+                                <string key="text">Passionate about fitness and an active lifestyle.                                          I enjoy going to the gym, playing basketball, and cycling. In my downtime, I love reading science fiction, psychological thrillers, and books on human behavior.
+
+</string>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="a8A-Yc-Jag"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <constraints>
+                            <constraint firstItem="kHb-bI-BBb" firstAttribute="top" secondItem="Zrz-rK-Sc4" secondAttribute="bottom" constant="8" id="BM5-qe-ghk"/>
+                            <constraint firstItem="Zrz-rK-Sc4" firstAttribute="leading" secondItem="a8A-Yc-Jag" secondAttribute="leading" constant="16" id="D5v-la-ec5"/>
+                            <constraint firstItem="a8A-Yc-Jag" firstAttribute="bottom" secondItem="Zrz-rK-Sc4" secondAttribute="bottom" constant="587" id="bP1-L4-tHE"/>
+                            <constraint firstItem="a8A-Yc-Jag" firstAttribute="bottom" secondItem="kHb-bI-BBb" secondAttribute="bottom" constant="316" id="gle-kC-Mw9"/>
+                            <constraint firstItem="a8A-Yc-Jag" firstAttribute="trailing" secondItem="kHb-bI-BBb" secondAttribute="trailing" constant="61" id="nSf-wP-eay"/>
+                            <constraint firstItem="Zrz-rK-Sc4" firstAttribute="top" secondItem="a8A-Yc-Jag" secondAttribute="top" id="nYD-lF-QeW"/>
+                            <constraint firstItem="kHb-bI-BBb" firstAttribute="leading" secondItem="a8A-Yc-Jag" secondAttribute="leading" constant="16" id="stb-OF-yjA"/>
+                            <constraint firstItem="a8A-Yc-Jag" firstAttribute="trailing" secondItem="Zrz-rK-Sc4" secondAttribute="trailing" constant="147" id="uYe-uE-b6j"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Hobbies" image="dumbbell.fill" catalog="system" landscapeImage="dumbbell.fill" selectedImage="dumbbell" id="8LD-gd-Yb0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WpR-Ej-jbJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3454.1984732824426" y="374.64788732394368"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="rNw-xw-eTC">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="YIF-q1-n6T" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bh5-Fz-sUn">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="eC4-cT-kQb" kind="relationship" relationship="viewControllers" id="bbX-Ua-cgV"/>
+                        <segue destination="tsu-to-LFE" kind="relationship" relationship="viewControllers" id="GWS-fq-lg9"/>
+                        <segue destination="9Hp-QL-apf" kind="relationship" relationship="viewControllers" id="jUb-zj-zFc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pGH-2j-r2K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2682" y="-474"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="dumbbell" catalog="system" width="128" height="72"/>
+        <image name="dumbbell.fill" catalog="system" width="128" height="72"/>
+        <image name="graduationcap" catalog="system" width="128" height="107"/>
+        <image name="graduationcap.fill" catalog="system" width="128" height="108"/>
+        <image name="person" catalog="system" width="128" height="121"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784310000001" green="0.81960784310000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
